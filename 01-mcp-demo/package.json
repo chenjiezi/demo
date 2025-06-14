@@ -1,0 +1,18 @@
+{
+  "name": "01-mcp-demo",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mcp:index": "npx @modelcontextprotocol/inspector node index.js",
+    "mcp:index2": "npx @modelcontextprotocol/inspector node index2.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1"
+  }
+}
